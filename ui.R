@@ -9,10 +9,10 @@
 
 library(shiny)
 
-CategoriesL1 <- read.csv("../data/CategoriesLevel1.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
-CategoriesL2 <- read.csv("../data/CategoriesLevel2.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
-CategoriesL3 <- read.csv("../data/CategoriesLevel3.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
-CategoriesL4 <- read.csv("../data/CategoriesLevel4.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL1 <- read.csv("CategoriesLevel1.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL2 <- read.csv("CategoriesLevel2.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL3 <- read.csv("CategoriesLevel3.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL4 <- read.csv("CategoriesLevel4.csv", quote="\"", header=TRUE, stringsAsFactors=FALSE)
 
 # Colums of the dataset
 namesQuestion    <- list("Topic_1", "Metric_1a", "Metric_1b", "Topic_2", "Metric_2a", "Metric_2b", "Interestingness")
