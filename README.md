@@ -1,5 +1,5 @@
 # ArsMagna
-Finding intereting research questions and new research topics
+Finding interesting research questions and new research topics
 
 The ArsMagna project aims to research, implement and validate a new mathematical theory and methodology that will lead to the automatic discovery of interesting research questions and new research topics.
 
