@@ -10,15 +10,15 @@
 library(shiny)
 library(AID)
 
-CategoriesL1 <- read.csv("../data/CategoriesLevel1.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
-CategoriesL2 <- read.csv("../data/CategoriesLevel2.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
-CategoriesL3 <- read.csv("../data/CategoriesLevel3.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
-CategoriesL4 <- read.csv("../data/CategoriesLevel4.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL1 <- read.csv("CategoriesLevel1.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL2 <- read.csv("CategoriesLevel2.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL3 <- read.csv("CategoriesLevel3.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+CategoriesL4 <- read.csv("CategoriesLevel4.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
 
-PagesL1 <- read.csv("../data/PagesLevel1.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
-PagesL2 <- read.csv("../data/PagesLevel2.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
-PagesL3 <- read.csv("../data/PagesLevel3.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
-PagesL4 <- read.csv("../data/PagesLevel4.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+PagesL1 <- read.csv("PagesLevel1.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+PagesL2 <- read.csv("PagesLevel2.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+PagesL3 <- read.csv("PagesLevel3.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
+PagesL4 <- read.csv("PagesLevel4.csv", quote="", sep=" ", header=TRUE, stringsAsFactors=FALSE)
 
 # Define server logic required to summarize and view the selected dataset
 shinyServer(function(input, output) {
