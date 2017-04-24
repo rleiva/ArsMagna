@@ -10,4 +10,8 @@ Please, refer to our book at http://www.mathematicsunknown.com for more informat
 
 # Installation
 
-Download server.R and ui.R files and run them inside RStudio (Shiny extension is requrired). Please mind that you have to provide your own datasets. A sample dataset is provided as reference.
+Download server.R and ui.R files and run them inside RStudio (Shiny extension is requrired). Please mind that you have to provide your own datasets.
+
+# Sample Dataset
+
+A sample dataset is provided as reference. The sample dataset allows to find interesting questions, or new research topics, in the areas of "Theoretical Computer Science", "Epistemology", or the combination of both. Please, select a Granularity Level of 4 in order to work with this dataset.
